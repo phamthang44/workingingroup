@@ -1,4 +1,48 @@
 /* Common */
+/* Theme color variables */
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #f4f4f4;
+  --text-color: #333;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+}
+
+/* Header styles */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section#history {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -173,52 +217,56 @@ a {
   vertical-align: bottom; /* dùng cách này để xóa bỏ khoảng trắng trong thẻ inline */
 }
 /* .hero-summary {
-  position: absolute;
-  right: 0;
-  bottom: 48px;
-  border-radius: 12px;
-  background: #fffcf4;
-  width: 270px;
-  padding: 24px;
-} */
+    position: absolute;
+    right: 0;
+    bottom: 48px;
+    border-radius: 12px;
+    background: #fffcf4;
+    width: 270px;
+    padding: 24px;
+  } */
 
 /* .hero-summary .item + .item {
-  margin-top: 22px;
-}
-
-.hero-summary .icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff9e8;
-}
-
-.hero-summary .item:nth-of-type(2) .icon {
-  background-color: #fcefff;
-}
-.hero-summary .item:nth-of-type(3) .icon {
-  background-color: #ebeaff;
-}
-
-.hero-summary .info {
-  margin-left: 16px;
-}
-.hero-summary .label {
-  color: #5f5b53;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.86;
-}
-.hero-summary .title {
-  color: #171100;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.67; */
+    margin-top: 22px;
+  }
+  
+  .hero-summary .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff9e8;
+  }
+  
+  .hero-summary .item:nth-of-type(2) .icon {
+    background-color: #fcefff;
+  }
+  .hero-summary .item:nth-of-type(3) .icon {
+    background-color: #ebeaff;
+  }
+  
+  .hero-summary .info {
+    margin-left: 16px;
+  }
+  .hero-summary .label {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+  }
+  .hero-summary .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; */
 
 /*  Hero right */
+
+.home .content {
+}
+
 .hero .content-block {
   width: 52%;
   padding: 64px 0 0 130px;

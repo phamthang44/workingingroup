@@ -6,9 +6,10 @@ const liList = ulElement.querySelectorAll("li");
 const feedbackList = document.querySelectorAll(".feedback-item");
 
 function scrollItem(items) {
+  
   let moveLenght = 1170;
   let iteration = 0;
-  setInterval(move, 2000);
+  setInterval(move, 5000);
 
   function move() {
     items.forEach((item) => {

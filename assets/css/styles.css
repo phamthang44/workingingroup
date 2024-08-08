@@ -288,3 +288,7 @@ a {
 .img-block .avatar {
   margin-right: 20px;
 }
+.img-block .avatar .lv1 {
+  background-position-x: center;
+  background-position-y: center;
+}

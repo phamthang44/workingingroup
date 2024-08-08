@@ -23,3 +23,4 @@ eventHandler(Array.from(liList))
 
 // console.log(123
 //.nav li.active a::after
+// 

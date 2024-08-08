@@ -13,7 +13,7 @@ function eventHandler (list) {
                 li.classList.remove('active')
             });
 
-            this.classList.add('active'), 1000
+            this.classList.add('active')
 
         }
     }

@@ -182,10 +182,11 @@ a {
   left: 22px;
   bottom: 6px;
   display: block;
-  width: 12px;
+  width: 62%;
   height: 2px;
   border-radius: 1px;
   background: #171100;
+  transition: all 0.4s ease ;
 }
 .header .sign-up-btn {
   min-width: 144px;

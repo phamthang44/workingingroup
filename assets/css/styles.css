@@ -176,18 +176,20 @@ a {
   text-shadow: 1px 0 0 currentColor;
   color: #171100;
 }
+
 .nav li.active a::after {
   content: "";
   position: absolute;
   left: 22px;
   bottom: 6px;
   display: block;
-  width: 62%;
+  width: 50%;
   height: 2px;
   border-radius: 1px;
   background: #171100;
   transition: all 0.4s ease ;
 }
+
 .header .sign-up-btn {
   min-width: 144px;
 }

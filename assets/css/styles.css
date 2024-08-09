@@ -293,3 +293,7 @@ a {
   background-position-x: center;
   background-position-y: center;
 }
+
+.img img {
+  width:100%;
+}
